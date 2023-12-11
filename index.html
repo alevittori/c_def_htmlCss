@@ -1,23 +1,169 @@
-
-
-
 <!DOCTYPE html>
 
-
+<!-- El atributo lang es el atributo que nos idica en que idioma va  a estar la pagina  -->
 <html lang="en">
+  <!-- Em eñ head va toda la informacion que necesita el navegador par apoder cagar nuestro proyecto y pagina web , que no es visual para el cliente-->
+  <head>
+    <!-- Las etiquetas metas se sierran por si misma,  -->
+
+    <meta charset="UTF-8" />
+    <!-- para que pueda enter carateres especiales -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -->
+
+    <!-- estilos css  -->
+    <link rel="stylesheet" href="./css/style.css" />
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Mycaffe</title>
+  </head>
 
+  <!-- El body es el contenedor principal donde va a ir todo el contenido visible para el cliente  -->
+  <body>
+    <header>
+      <nav>
+        <div class="nav__logoContainer">
+          <img src="./asets/logo/logo_horizontal.png" alt="logo" class="logo" />
+        </div>
+        <ul class="nav__menu">
+          <li class="menu__item"><a href="#" class="item__link">Inicio</a></li>
+          <li class="menu__item">
+            <a href="#" class="item__link">Nosotros</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="item__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <!-- <figure class="hero__img"> -->
+        <!-- <img src="./asets/hero/hero.jpg" alt="hermo img" /> -->
+        <!-- <figcaption></figcaption>, que permite darle una pequeña descripción a la imagen, como el autor, fuente o algo por el estilo, que se mostrará usualmente abajo de la imagen. -->
+        <!-- </figure> -->
+        <!-- <div class="hero__wrap">
 
-<body>
-    
+            </div> -->
 
+        <h1>Tu Caffe</h1>
+        <h3>a tu medida</h3>
+      </section>
+      <section class="galeria">
+        <h2 class="galeria__title">No te vayas sin probar alguno</h2>
+        <div class="galeria__container">
+          <figure class="card">
+            <img src="./asets/productos/cafe-1.jpg" alt="" class="card__img" />
+            <h2 class="card__title">Expresso</h2>
+            <p class="card__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              suscipit eligendi ullam nesciunt similique ut perspiciatis omnis,
+              ratione, commodi reiciendis expedita autem debitis nemo quaerat
+              aliquam quod iste mollitia laborum.
+            </p>
+          </figure>
+          <figure class="card">
+            <img src="./asets/productos/cafe-2.jpg" alt="" class="card__img" />
+            <h2 class="card__title">Capussino</h2>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae
+              nobis voluptates impedit! Reiciendis vero perspiciatis suscipit
+              sint dolor iste quisquam tempora ratione itaque deserunt,
+              similique, eius officia aliquid adipisci.
+            </p>
+          </figure>
+          <figure class="card">
+            <img src="./asets/productos/cafe-3.jpg" alt="" class="card__img" />
+            <h2 class="card__title">Clasico</h2>
+            <p class="card__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+              voluptatum doloremque sapiente dolores molestias laudantium quas
+              tempore rerum quod ipsum perferendis eius neque, in voluptates et
+              a nam? Quos, possimus?
+            </p>
+          </figure>
+        </div>
+      </section>
+      <section class="nosotros">
+        <div class="nosotros__container">
+          <div class="nosotros__presentacion">
+            <h2 class="presentacion__title">Mr Bob</h2>
+            <p class="presentacion__description">
 
-</body>
-
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur corporis ea voluptate maiores, id officiis laudantium,
+              nisi atque sit tempore esse asperiores distinctio adipisci
+              accusamus dicta sequi. Illo, quo dolorem? Ex repudiandae similique
+              molestiae dignissimos itaque possimus, ut in quo impedit aliquam
+              officia placeat error tenetur ipsam modi quisquam voluptatum,
+              nostrum aliquid aperiam delectus incidunt provident! Rem quos est
+              totam. Accusantium eos amet doloremque unde ipsa aperiam maxime
+              aspernatur dolor veritatis, provident ducimus. Ipsum alias iure,
+              corrupti sed nihil velit? A sunt asperiores atque voluptas nam
+              voluptates error culpa autem!
+            </p>
+          </div>
+          <div class="nosotros__duenio">
+           
+                <img class="duenio__img" src="./asets/nosotrso/duenio.jpg" alt="">
+            
+          </div>
+          <div class="nosotros__local">
+            <img src="./asets/nosotrso/local.jpg" alt="" class="local__img">
+          </div>
+          <div class="nosotros__historia">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab
+              temporibus voluptatibus, quaerat ipsa quis! Consectetur accusamus
+              voluptatibus, harum sint architecto sunt rem natus reiciendis
+              dolore distinctio. Minima, vel distinctio? Neque tenetur ea non
+              nam? Quas corrupti iste deleniti minima, nihil fugit, officiis
+              excepturi architecto ipsam est maiores perferendis voluptatum
+              quisquam modi cupiditate. Porro vitae, autem praesentium non
+              aspernatur accusamus! Inventore unde, expedita commodi eius
+              nostrum fugiat nemo, iusto ducimus excepturi exercitationem neque
+              debitis. Animi repellat id molestias eius nihil, dolorum
+              voluptatum aliquid porro exercitationem possimus laudantium
+              excepturi odio enim.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="resenia"></section>
+    </main>
+    <footer>
+        <div class="footer__contain">
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="food__menu">
+                <ul class="mini__menu">
+                    <li class="mini__menu-item"><a href="#" class="mini__menu-link">Home</a></li>
+                    <li class="mini__menu-item"><a href="#" class="mini__menu-link">About</a></li>
+                    <li class="mini__menu-item"><a href="#" class="mini__menu-link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="terminos">
+                <p>Todos los derechos reservados. Copyright 2023. 
+                
+                    <a href="#">Términos y Condiciones</a> – <a href="#">Política de Privacidad</a>
+              
+                    Otras marcas o nombres de productos utilizados en esta página son propiedad de sus respectivos dueños.​
+                </p>
+            </div>
+        </div>
+        
+      <p class="desarrollador">
+        By
+        <a class="link__desarrollador" href="https://www.linkedin.com/in/alejandro-vittori-631221247/"
+          >Ale Vitt</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>

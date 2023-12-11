@@ -1,0 +1,58 @@
+/* ############    HEAER STYLE         ##########################  */
+header{
+    /* height: 15rem;
+    margin-bottom: 1rem; */
+    background: var(--color-3);
+}
+header nav{
+    /* max-width: 140rem; */
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    
+    /* justify-items: center;
+    align-items: center; */
+
+    /* height: 15rem; */
+}
+nav{
+    /* height: 15rem; */
+    /* border: 0.1rem solid red; */
+    
+}
+nav .nav__logoContainer{
+    /* height: 15rem; */
+    /* border: 2px solid violet; */
+}
+nav .nav__logoContainer img{
+    height: 10rem;
+    align-self: flex-start;
+    justify-self: flex-start;
+
+    padding: 2rem;
+
+}
+nav .nav__menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    /* align-content: center; */
+    justify-items: center;
+    align-self: center;
+
+}
+
+.nav__menu .menu__item{
+    /* display: inline; */
+}
+.menu__item .item__link{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+
+    color: var(--color-light);
+}
+.menu__item .item__link:hover{
+    color: var(--color-0);
+}
+/* ************************************************* */

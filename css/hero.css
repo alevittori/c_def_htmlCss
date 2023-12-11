@@ -1,0 +1,54 @@
+main .hero{
+    background-image: url(../asets/hero/hero_desenfoque.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1rem;
+    /* position: relative; */
+
+    /* filter: blur(4px); */
+    backdrop-filter: blur(5px);
+}
+hero .hero__wrap{
+    filter: blur(4px);
+    width: 100%;
+    height: 80vh;
+}
+.hero h1{
+    /* position: absolute;
+    top: 30%;
+    right: 40%; */
+
+
+
+    font-size: 20rem;
+    color: white;
+    font-family: 'Ephesis', cursive;
+    font-weight: bold;
+}
+.hero h3{
+    /* position: absolute;
+    top: 40%;
+    right: 20%;
+ */
+
+
+    font-size: 15rem;
+    color: white;
+    font-family: 'Ephesis', cursive;
+    font-weight: bold;
+}
+/* .hero__img{
+    width: vw;
+}
+.hero .hero__img img{
+    width: 100%;
+} */

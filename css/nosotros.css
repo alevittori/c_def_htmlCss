@@ -1,0 +1,52 @@
+.nosotros{
+    background: var(--color-3);
+    /* height: 50rem; */
+    /* max-width: 100rem; */
+    padding: 2rem;
+
+}
+.nosotros__container{
+    /* max-width: 80rem; */
+    /* margin-top: 2rem; */
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+.nosotros__presentacion{
+    padding: 2rem;
+}
+.presentacion__title{
+    color: var(--color-light);
+    margin-bottom: 2rem;
+    font-size: 5rem;
+}
+.presentacion__description , .nosotros__historia{
+    color: var(--color-light);
+    font-size: 3rem;
+    padding: 2rem;
+
+}
+.nosotros__duenio , .nosotros__local{
+  padding: 2rem;
+}
+.duenio{
+
+}
+.duenio__img, .local__img{
+    height: 50rem;
+    /* padding: 2rem; */
+    border-radius: 15%;
+
+    box-shadow: -1px 0px 20px 4px rgba(0,0,0,0.56)
+    
+  
+   
+}
+/* .nosotros__duenio img{
+    width: 100%;
+} */

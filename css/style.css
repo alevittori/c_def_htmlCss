@@ -1,0 +1,43 @@
+@import  './header.css' ;
+
+@import './main.css' ;
+@import './hero.css';
+@import './galeria.css';
+@import './footer.css';
+@import './nosotros.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+:root{
+    --color-main-font: #643c23;
+    /* paleta de colores  */
+    --color-0:#341100;
+    --color-1:#643c23;
+    --color-2:#996b42;
+    --color-3:#cba075;
+    --color-4:#ffd9ab;
+    --color-light: #ffffff;
+    --ff-title:'Ephesis', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+   
+}
+
+
+
